@@ -57,7 +57,8 @@ process-documents/
 1. Drop the MP4 in `source/`.
 2. Tell Claude Code: *"process source/<filename>.mp4"*.
 3. Claude runs `scripts/transcribe.sh`, drafts `steps.json` + intro by reading the transcript, runs `scripts/extract_frames.py`, commits + pushes the frames, then creates the Notion page via the Notion MCP.
-4. Open the Notion page, upload the video to YouTube (unlisted, **Process Library** playlist), paste the URL into the top callout's `<video src="https://youtu.be/..."></video>` block. Flip Status to In review.
+4. Claude also renames the source MP4 to a descriptive YouTube-ready filename (pattern: `YYYY-MM-DD-<slug>.MP4`) and outputs a **YouTube upload bundle**: title, description (with Notion page URL), tags, settings (Unlisted, Autos & Vehicles, Process Library playlist, comments off, embedding on), and the `<video src="https://youtu.be/..."></video>` snippet to paste into the top callout. Do this at the end of every run, automatically.
+5. Dave uploads to YouTube, pastes the embed snippet into the Notion page replacing the yellow callout, and flips Status to In use.
 
 ## Known issues and gotchas
 
