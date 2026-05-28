@@ -71,8 +71,8 @@ process-documents/
 
 First end-to-end run, 2026-05-28:
 
-- **Source video:** `source/DJI_20260527083543_0001_D.MP4` (1:50, ROPS + body capping removal walkthrough on a Series Land Rover)
-- **Generated Notion page:** https://www.notion.so/36e02a43008981a9a77fc910d6e93cb3 ("Remove ROPS and body capping [Series]")
+- **Source video:** `source/2026-05-27-remove-rops-and-capping-perentie.MP4` (1:50, ROPS + body capping removal walkthrough on a Land Rover Perentie)
+- **Generated Notion page:** https://www.notion.so/36e02a43008981a9a77fc910d6e93cb3 ("Remove ROPS and body capping [Perentie]")
 - **GitHub frames:** https://github.com/davebudge/process-documents/tree/main/output/dji-test/frames
 
 Quirks observed and worked around:

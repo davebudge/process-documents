@@ -1,11 +1,11 @@
 {
-  "video": "source/DJI_20260527083543_0001_D.MP4",
+  "video": "source/2026-05-27-remove-rops-and-capping-perentie.MP4",
   "slug": "dji-test",
-  "title": "Remove ROPS and body capping [Series]",
+  "title": "Remove ROPS and body capping [Perentie]",
   "category": ["BC - Body and Chassis", "WO - WORKSHOP"],
   "work_type": "🛠 Repair & Rebuild",
-  "vehicle_line": "Series 2A",
-  "vehicle_line_url": "https://www.notion.so/1a702a43008980938ea4dab6a03a0c92",
+  "vehicle_line": "LR Perentie: 1988 - 1998",
+  "vehicle_line_url": "https://www.notion.so/30102a430089804bb15fc3bf45fae916",
   "date": "2026-05-27",
   "intro": "Removing the rollover protection (ROPS) and the capping from the body. The bar work comes out easily, but several rivets are hidden under the ROPS foot and behind the fuel filler neck. Work through the steps in order. Don't skip the access-hole drilling — it's the only way to reach the rivet bases.",
   "steps": [
