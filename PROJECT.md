@@ -69,4 +69,16 @@ process-documents/
 
 ## Test page
 
-(Filled in after first end-to-end run)
+First end-to-end run, 2026-05-28:
+
+- **Source video:** `source/DJI_20260527083543_0001_D.MP4` (1:50, ROPS + body capping removal walkthrough on a Series Land Rover)
+- **Generated Notion page:** https://www.notion.so/36e02a43008981a9a77fc910d6e93cb3 ("Remove ROPS and body capping [Series]")
+- **GitHub frames:** https://github.com/davebudge/process-documents/tree/main/output/dji-test/frames
+
+Quirks observed and worked around:
+
+- Whisper large-v3 on M2 Max Metal transcribed a 1:50 video in ~8 seconds. Got "ROPS", "rivet", "capping", "fuel filler nozzle" all correct.
+- Initial frame extraction wrote 4K 16-bit PNGs at 35MB each (too big for a repo). Updated `extract_frames.py` to write 1920px JPEG q=3 (~150KB).
+- The Notion MCP `fetch` strips the `color="yellow_background"` attribute from callouts in the read-back, even though the colour is persisted on the page (confirmed by checking an existing page with known-yellow callouts). Don't trust the fetch view for callout colours, but the colour IS applied.
+- Notion auto-linked `.MP4` in the Note field as if it were a URL. Worked around by writing the extension as `(MP4)` instead of `.MP4` in the Note.
+- Em dashes (`—`) snuck into step headings on the first draft. Replaced with colons. Watch this in future runs — em dashes are a hard no.
