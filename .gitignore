@@ -1,0 +1,18 @@
+# Source videos (too big to commit)
+source/*.mp4
+source/*.MP4
+source/*.mov
+source/*.MOV
+
+# Intermediate audio (regeneratable from source)
+output/*/audio.wav
+
+# Whisper model (3GB, downloaded once)
+models/*.bin
+
+# OS junk
+.DS_Store
+**/.DS_Store
+
+# Symlink to shared user CLAUDE.md (lives outside this repo)
+CLAUDE.md

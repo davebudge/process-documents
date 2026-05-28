@@ -1,0 +1,68 @@
+{
+  "video": "source/DJI_20260527083543_0001_D.MP4",
+  "slug": "dji-test",
+  "title": "Remove ROPS and body capping [Series]",
+  "category": ["BC - Body and Chassis", "WO - WORKSHOP"],
+  "work_type": "🛠 Repair & Rebuild",
+  "vehicle_line": "Series 2A",
+  "vehicle_line_url": "https://www.notion.so/1a702a43008980938ea4dab6a03a0c92",
+  "date": "2026-05-27",
+  "intro": "Removing the rollover protection (ROPS) and the capping from the body. The bar work comes out easily, but several rivets are hidden under the ROPS foot and behind the fuel filler neck. Work through the steps in order. Don't skip the access-hole drilling — it's the only way to reach the rivet bases.",
+  "steps": [
+    {
+      "n": 1,
+      "timestamp_sec": 17.0,
+      "title": "Remove the bar work",
+      "instructions": [
+        "Work the bar work out at the corner of the capping.",
+        "It releases relatively easily once the corner is free."
+      ]
+    },
+    {
+      "n": 2,
+      "timestamp_sec": 36.0,
+      "title": "Remove the fuel filler nozzle neck (right-hand side)",
+      "instructions": [
+        "The right-hand front base plate rivet holes are blocked by the fuel filler neck.",
+        "Remove the neck before attempting to drill out the right-hand front rivets."
+      ]
+    },
+    {
+      "n": 3,
+      "timestamp_sec": 27.0,
+      "title": "Remove the two front base plates",
+      "instructions": [
+        "Drill out the rivets securing both front base plates.",
+        "Right-hand side is only accessible with the fuel filler neck out (Step 2)."
+      ]
+    },
+    {
+      "n": 4,
+      "timestamp_sec": 58.0,
+      "title": "Locate the hidden rivets under the ROPS foot",
+      "instructions": [
+        "Two rivets that retain the top capping are hidden underneath the ROPS foot.",
+        "They cannot be drilled from below in the normal way — the foot is in the way."
+      ]
+    },
+    {
+      "n": 5,
+      "timestamp_sec": 89.0,
+      "title": "Drill access holes through the top capping",
+      "instructions": [
+        "Drill an access hole through the top capping above each hidden rivet.",
+        "Two holes were used in this example — one above each rivet."
+      ]
+    },
+    {
+      "n": 6,
+      "timestamp_sec": 100.0,
+      "title": "Grind off the rivet bases and lift the capping",
+      "instructions": [
+        "Through the access holes, grind off the bases of the two hidden rivets.",
+        "Once the bases are gone the top capping lifts away from the body."
+      ]
+    }
+  ],
+  "reinstall_note": "When re-installing: relocate the rivet points (the existing hole will be moved, and you may add two more). Do this BEFORE the part gets painted."
+}
