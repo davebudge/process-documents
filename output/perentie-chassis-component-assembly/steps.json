@@ -4,7 +4,7 @@
   "category": "Chassis and Suspension",
   "vehicle_line": "Perentie",
   "duration_sec": 233,
-  "note": "Torque and fastener values are transcribed from the SME's narration and MUST be verified against spec before use. Part numbers were never spoken. Two supplier names were mis-transcribed and need confirming. This is part 1 of a multi-part assembly doc (SME says 'the rest I'll do in another process document').",
+  "note": "Torque and fastener values are transcribed from the SME's narration and MUST be verified against spec before use. Part numbers were never spoken. Suppliers confirmed by Dave: Wurth (shock-mount bolts), British Auto Parts (imperial bracket + bush bolts), SuperPro (bushes). This is part 1 of a multi-part assembly doc (SME says 'the rest I'll do in another process document').",
   "steps": [
     {
       "n": 1,
@@ -12,7 +12,7 @@
       "title": "Fit the shock absorber mounts",
       "torque": "90 Nm (VERIFY)",
       "fastener": "3 x M12 x 110 mm, brand new",
-      "supplier": "?? (heard as 'just worth fasteners', confirm)",
+      "supplier": "Wurth",
       "body": "Three bolts per shock absorber mount. Use brand-new M12 x 110 mm fasteners from the shelf. Torque to 90 Nm."
     },
     {
@@ -21,7 +21,7 @@
       "title": "Bolt the front brackets (watch orientation)",
       "torque": "81 Nm (VERIFY)",
       "fastener": "Imperial bolts",
-      "supplier": "?? (heard as 'pretty shorter parts', confirm)",
+      "supplier": "British Auto Parts",
       "body": "These are imperial bolts. The front two on each bracket are longer than the rear ones and go in with the nut facing down. The bolts on the front of the bracket have the nuts facing up. Torque all to 81 Nm."
     },
     {
@@ -30,7 +30,7 @@
       "title": "Fit the bush bolts (both sides)",
       "torque": "90 Nm (VERIFY)",
       "fastener": "M10 / M12 (SME unsure, confirm)",
-      "supplier": "?? (heard as 'pretty shorter parts', confirm)",
+      "supplier": "British Auto Parts",
       "body": "Bush bolts, torqued to 90 Nm. Same on the other side."
     },
     {

@@ -63,7 +63,8 @@ process-documents/
 ## Known issues and gotchas
 
 - **Frame quality**: midpoint extraction can land on motion-blur or an unhelpful angle. For v1, accept the trade-off; if a frame is bad, manually replace it in Notion. v2 idea: scene-detect candidates + let a vision model pick the best.
-- **Parts and torques**: can't be derived from audio alone. Pipeline leaves those tables empty with an SME callout. Don't try to extract them from the transcript — you'll hallucinate part numbers.
+- **Parts and torques**: default is you can't derive them from audio, so leave those tables empty with an SME callout, and never invent a part number. **Exception (Dave's call, 05/07/2026):** when the SME narrates torques and fastener specs on-camera (some videos are pure torque/fastener tours), DO capture them, but tag every value `VERIFY` and put a loud "verify against spec before use" callout at the top. They go in as Draft for human sign-off. Still never invent part numbers, they're rarely spoken.
+- **Whisper hallucination loop**: when the audio goes quiet/ambient (SME stops talking but keeps filming), large-v3 can lock into repeating one phrase for the rest of the clip (a whole minute of "they're going to be a little bit different than the old ones" on the 03/07 run). Spot the repeated-line tail in transcript.txt and cut it, the real content ends where the repetition starts.
 - **DJI source files**: huge (~700MB for 2 minutes at 4K). Keep them out of git. If you ever need the source again, it's still on the workstation under `source/`.
 - **Public repo**: image URLs are world-readable. Don't film anything you wouldn't put on the company YouTube. If a video has sensitive content, host frames elsewhere (Cloudflare R2, etc.).
 - **Whisper proper-noun spelling**: even large-v3 will mis-spell uncommon Aussie names and supplier names. Spot-check the transcript before publishing.
@@ -83,3 +84,16 @@ Quirks observed and worked around:
 - The Notion MCP `fetch` strips the `color="yellow_background"` attribute from callouts in the read-back, even though the colour is persisted on the page (confirmed by checking an existing page with known-yellow callouts). Don't trust the fetch view for callout colours, but the colour IS applied.
 - Notion auto-linked `.MP4` in the Note field as if it were a URL. Worked around by writing the extension as `(MP4)` instead of `.MP4` in the Note.
 - Em dashes (`—`) snuck into step headings on the first draft. Replaced with colons. Watch this in future runs — em dashes are a hard no.
+
+Second run, 2026-07-05:
+
+- **Source video:** `source/2026-07-03-perentie-chassis-component-assembly.MP4` (3:53, 4K, front chassis component assembly on a Perentie: shock mounts, bushes, steering box)
+- **Generated Notion page:** https://app.notion.com/p/39402a43008981cab0e6c18d73cb7a3f ("Assemble chassis components, part 1: shock mounts, bushes, steering box [Perentie]")
+- **GitHub frames:** https://github.com/davebudge/process-documents/tree/main/output/perentie-chassis-component-assembly/frames
+
+Quirks and firsts on this run:
+
+- First **torque/fastener-tour** video: not a sequential procedure, the SME walks the chassis calling out each bolt and torque. Filled the Tools and Bolts table (each value tagged VERIFY) per the exception above, kept Required Parts blank (no part numbers spoken).
+- Whisper looped from ~2:53 to the end (see gotcha above). Cut the tail.
+- Suppliers came through the transcript garbled and Dave corrected them: "just worth fasteners" = **Würth**, "pretty shorter parts" = **British Auto Parts**. Filed both to the wiki. SuperPro was correct.
+- Frames were sharp this run, the SME's finger was on the relevant fastener at each midpoint.
