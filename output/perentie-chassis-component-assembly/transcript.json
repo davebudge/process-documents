@@ -1,0 +1,483 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"mels": 128,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/davebudge/Projects/process-documents/models/ggml-large-v3.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,400",
+				"to": "00:00:06,880"
+			},
+			"offsets": {
+				"from": 400,
+				"to": 6880
+			},
+			"text": " so this is a process document for assembling the defender chassis components all in it"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:06,880",
+				"to": "00:00:15,760"
+			},
+			"offsets": {
+				"from": 6880,
+				"to": 15760
+			},
+			"text": " first of all we've got uh these shock absorber mounts there's three bolts all them 12 brand"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:15,760",
+				"to": "00:00:23,120"
+			},
+			"offsets": {
+				"from": 15760,
+				"to": 23120
+			},
+			"text": " new ones that we have on the shelf just worth fasteners um i think they m12 by 110 millimeters"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:23,120",
+				"to": "00:00:32,080"
+			},
+			"offsets": {
+				"from": 23120,
+				"to": 32080
+			},
+			"text": " and they talk to 90 newton meters the these are also sorry these are imperial ones that come"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:32,080",
+				"to": "00:00:38,400"
+			},
+			"offsets": {
+				"from": 32080,
+				"to": 38400
+			},
+			"text": " here these are imperial ones that come from pretty shorter parts they have part number um the"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:38,400",
+				"to": "00:00:46,960"
+			},
+			"offsets": {
+				"from": 38400,
+				"to": 46960
+			},
+			"text": " the front two on these brackets which you can see here the front two this one and that one"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:46,960",
+				"to": "00:00:52,480"
+			},
+			"offsets": {
+				"from": 46960,
+				"to": 52480
+			},
+			"text": " are longer than the rear ones and as you can see they are with the nut facing down"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:53,440",
+				"to": "00:00:59,920"
+			},
+			"offsets": {
+				"from": 53440,
+				"to": 59920
+			},
+			"text": " the ones on the front of that bracket the nuts face up and they are all"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:59,920",
+				"to": "00:01:05,200"
+			},
+			"offsets": {
+				"from": 59920,
+				"to": 65200
+			},
+			"text": " 90 newton meters as well to talk to sorry 81 newton meters for those not 19 meters"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:05,200",
+				"to": "00:01:15,760"
+			},
+			"offsets": {
+				"from": 65200,
+				"to": 75760
+			},
+			"text": " these are the uh bush uh bolts they are m10 m12s i believe um they're also from pretty"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:15,760",
+				"to": "00:01:21,920"
+			},
+			"offsets": {
+				"from": 75760,
+				"to": 81920
+			},
+			"text": " shorter parts they have a part number uh they are 90 newton meters as well same on the other side"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:23,120",
+				"to": "00:01:31,040"
+			},
+			"offsets": {
+				"from": 83120,
+				"to": 91040
+			},
+			"text": " um these bushes uh come from the bush comes from super pro same as the other ones but the"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:31,040",
+				"to": "00:01:40,080"
+			},
+			"offsets": {
+				"from": 91040,
+				"to": 100080
+			},
+			"text": " they're just a press fit they just pop in the steering box has four m12 bolts that go through"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:40,080",
+				"to": "00:01:46,800"
+			},
+			"offsets": {
+				"from": 100080,
+				"to": 106800
+			},
+			"text": " and into there they are also off the shelf from us 10.9 grade they are torqued to 81 newton meters"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:46,800",
+				"to": "00:01:52,480"
+			},
+			"offsets": {
+				"from": 106800,
+				"to": 112480
+			},
+			"text": " same with these bolts under here 81 newton meters i've reused the original ones m12"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:53,120",
+				"to": "00:01:58,800"
+			},
+			"offsets": {
+				"from": 113120,
+				"to": 118800
+			},
+			"text": " fasteners do not fit through this gap so they are the original imperial size"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:58,800",
+				"to": "00:02:06,880"
+			},
+			"offsets": {
+				"from": 118800,
+				"to": 126880
+			},
+			"text": " this is also part of that same bracket and this is also part of that same bracket and is 81 newton"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:06,880",
+				"to": "00:02:12,960"
+			},
+			"offsets": {
+				"from": 126880,
+				"to": 132960
+			},
+			"text": " meters these are 90 newton meters these two long bolts that go all the way through the chassis"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:12,960",
+				"to": "00:02:22,640"
+			},
+			"offsets": {
+				"from": 132960,
+				"to": 142640
+			},
+			"text": " 90 newton meters these fasteners around the hat tops the shop absorber um what do you call towers"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:23,920",
+				"to": "00:02:30,880"
+			},
+			"offsets": {
+				"from": 143920,
+				"to": 150880
+			},
+			"text": " quite fragile so don't over tighten them i think they're 30 new 40 newton meters check the spec on"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:30,880",
+				"to": "00:02:40,240"
+			},
+			"offsets": {
+				"from": 150880,
+				"to": 160240
+			},
+			"text": " that um the rest of it i'll do another process document before got all the parts here that are"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:40,240",
+				"to": "00:02:51,440"
+			},
+			"offsets": {
+				"from": 160240,
+				"to": 171440
+			},
+			"text": " going together the there's more to come all the uh all the new super pro bushes in these are gonna be"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:53,040",
+				"to": "00:02:58,240"
+			},
+			"offsets": {
+				"from": 173040,
+				"to": 178240
+			},
+			"text": " a little bit different than the old ones and they're going to be a little bit different than"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:58,240",
+				"to": "00:03:01,200"
+			},
+			"offsets": {
+				"from": 178240,
+				"to": 181200
+			},
+			"text": " the old ones so they're going to be a little bit different than the old ones so they're going to be"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:01,200",
+				"to": "00:03:03,200"
+			},
+			"offsets": {
+				"from": 181200,
+				"to": 183200
+			},
+			"text": " a little bit different than the old ones so they're going to be a little bit different than the old ones"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:03,200",
+				"to": "00:03:05,200"
+			},
+			"offsets": {
+				"from": 183200,
+				"to": 185200
+			},
+			"text": " so they're going to be a little bit different than the old ones so they're going to be a little bit"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:05,200",
+				"to": "00:03:07,200"
+			},
+			"offsets": {
+				"from": 185200,
+				"to": 187200
+			},
+			"text": " different than the old ones so they're going to be a little bit different than the old ones"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:07,200",
+				"to": "00:03:09,120"
+			},
+			"offsets": {
+				"from": 187200,
+				"to": 189120
+			},
+			"text": " so they're going to be a little bit different than the old ones so they're going to be a little bit"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:09,120",
+				"to": "00:03:11,200"
+			},
+			"offsets": {
+				"from": 189120,
+				"to": 191200
+			},
+			"text": " different than the old ones so they're going to be a little bit different than the old ones"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:11,200",
+				"to": "00:03:13,200"
+			},
+			"offsets": {
+				"from": 191200,
+				"to": 193200
+			},
+			"text": " so they're going to be a little bit different than the old ones so they're going to be a little bit"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:13,200",
+				"to": "00:03:15,200"
+			},
+			"offsets": {
+				"from": 193200,
+				"to": 195200
+			},
+			"text": " different than the old ones so they're going to be a little bit different than the old ones"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:15,200",
+				"to": "00:03:17,200"
+			},
+			"offsets": {
+				"from": 195200,
+				"to": 197200
+			},
+			"text": " so they're going to be a little bit different than the old ones so they're going to be a little bit"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:17,200",
+				"to": "00:03:19,200"
+			},
+			"offsets": {
+				"from": 197200,
+				"to": 199200
+			},
+			"text": " different than the old ones so they're going to be a little bit different than the old ones so they're"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:19,200",
+				"to": "00:03:21,200"
+			},
+			"offsets": {
+				"from": 199200,
+				"to": 201200
+			},
+			"text": " going to be a little bit different than the old ones so they're going to be a little bit different than the old ones"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:21,200",
+				"to": "00:03:23,200"
+			},
+			"offsets": {
+				"from": 201200,
+				"to": 203200
+			},
+			"text": " so they're going to be a little bit different than the old ones so they're going to be a little bit"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:23,200",
+				"to": "00:03:25,200"
+			},
+			"offsets": {
+				"from": 203200,
+				"to": 205200
+			},
+			"text": " different than the old ones so they're going to be a little bit different than the old ones so they're"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:25,200",
+				"to": "00:03:27,200"
+			},
+			"offsets": {
+				"from": 205200,
+				"to": 207200
+			},
+			"text": " going to be a little bit different than the old ones so they're going to be a little bit different than the old ones"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:27,200",
+				"to": "00:03:29,200"
+			},
+			"offsets": {
+				"from": 207200,
+				"to": 209200
+			},
+			"text": " so they're going to be a little bit different than the old ones so they're going to be a little bit different than the old ones"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:29,200",
+				"to": "00:03:31,200"
+			},
+			"offsets": {
+				"from": 209200,
+				"to": 211200
+			},
+			"text": " so they're going to be a little bit different than the old ones so they're going to be a little bit different than the old ones"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:31,200",
+				"to": "00:03:51,200"
+			},
+			"offsets": {
+				"from": 211200,
+				"to": 231200
+			},
+			"text": " so they're going to be a little bit different than the old ones so they're going to be a little bit different than the old ones"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:51,200",
+				"to": "00:03:53,440"
+			},
+			"offsets": {
+				"from": 231200,
+				"to": 233440
+			},
+			"text": " so they're going to be a little bit different than the old ones so they're going to be a little bit different than the old ones"
+		}
+	]
+}
