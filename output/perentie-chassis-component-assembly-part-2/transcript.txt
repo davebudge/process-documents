@@ -1,0 +1,8 @@
+[00:00:00,000 --> 00:00:08,480] I missed something. Part three, let's call it, is installing this bash guard here, this big thing that goes underneath the motor.
+[00:00:08,480 --> 00:00:12,900] Have it up on the hoist when you do that. There's another process document for that that I'll link.
+[00:00:12,900 --> 00:00:20,500] Same with this crossbar that replaces the old gearbox mount.
+[00:00:20,500 --> 00:00:30,420] It's just bolted in and it's got two M8 fasteners, one here and one here, on both sides.
+[00:00:30,420 --> 00:00:45,500] I think they're M8 by 25mm and they just go through and attach into the rivnuts that are on the mount.
+[00:00:45,500 --> 00:00:49,500] Let's see if I can get it to...
+[00:00:50,500 --> 00:00:53,500] Focus.
+[00:00:53,500 --> 00:01:01,460] There are the two M8 fasteners, the M8 rivnuts.

@@ -1,0 +1,23 @@
+{
+  "video": "source/2026-07-09-perentie-chassis-component-assembly-part-2.MP4",
+  "title": "Assemble chassis components, part 2: bash guard and gearbox mount crossbar [Perentie]",
+  "category": "Workshop Manual",
+  "vehicle_line": "Perentie",
+  "intro": "Short follow-on to part 1 of the Perentie chassis assembly. This covers two items that were missed the first time round: the bash guard that mounts underneath the motor, and the crossbar that replaces the old gearbox mount. Have the vehicle up on the hoist for the bash guard. The bash guard has its own dedicated process document, linked below.",
+  "steps": [
+    {
+      "n": 1,
+      "timestamp_sec": 5.0,
+      "title": "Install the bash guard under the motor",
+      "body": "With the vehicle up on the hoist, install the bash guard: the large plate that mounts underneath the motor. This has its own dedicated process document, follow that for the full fitment procedure.",
+      "safety": false
+    },
+    {
+      "n": 2,
+      "timestamp_sec": 57.0,
+      "title": "Install the gearbox mount crossbar",
+      "body": "Install the crossbar that replaces the old gearbox mount. It bolts straight in. Each side is held by two M8 fasteners (M8 x 25mm `VERIFY`), one at each location, that pass through and thread into the rivnuts already fitted to the mount.",
+      "safety": false
+    }
+  ]
+}

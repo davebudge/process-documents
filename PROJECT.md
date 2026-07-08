@@ -97,3 +97,17 @@ Quirks and firsts on this run:
 - Whisper looped from ~2:53 to the end (see gotcha above). Cut the tail.
 - Suppliers came through the transcript garbled and Dave corrected them: "just worth fasteners" = **Würth**, "pretty shorter parts" = **British Auto Parts**. Filed both to the wiki. SuperPro was correct.
 - Frames were sharp this run, the SME's finger was on the relevant fastener at each midpoint.
+
+Third run, 2026-07-09:
+
+- **Source video:** `source/2026-07-09-perentie-chassis-component-assembly-part-2.MP4` (1:04, 4K, short follow-on to part 1: bash guard under the motor + the crossbar that replaces the old gearbox mount)
+- **Generated Notion page:** not yet created (Notion MCP was unauthenticated this session). Page content drafted and saved to [output/perentie-chassis-component-assembly-part-2/notion-page.md](output/perentie-chassis-component-assembly-part-2/notion-page.md), ready to create once the connector is authorised.
+- **GitHub frames:** https://github.com/davebudge/process-documents/tree/main/output/perentie-chassis-component-assembly-part-2/frames
+
+Quirks and notes on this run:
+
+- **New-file confusion:** the "new file" turned out to be the video in `source/` (dropped as a raw `DJI_...MP4`), not the whiteboard photos sitting untracked in `output/dev-meeting-2026-05-28/`. Those photos are an unrelated strategy-board capture, not pipeline output.
+- Two clean steps only. The SME frames it as "part three, let's call it" (he's numbering the physical assembly steps), but as a document it's part 2 of the series (part 1 = shock mounts, bushes, steering box). Dave confirmed vehicle = Perentie and doc numbering = part 2.
+- Fastener tour again: M8 x 25mm into rivnuts on the gearbox mount crossbar. Tagged `VERIFY` (SME said "I think they're M8 by 25mm"). No torque spoken, left blank with SME callout. No part numbers spoken.
+- Both frames sharp, no motion blur or hallucination tail this run.
+- **Notion MCP blocked:** connector not authenticated in this session, so the page couldn't be created. Everything up to that point (transcript, steps, frames, page draft, YouTube bundle) is ready.

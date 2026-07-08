@@ -1,0 +1,120 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"mels": 128,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/davebudge/Projects/process-documents/models/ggml-large-v3.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:08,480"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 8480
+			},
+			"text": " I missed something. Part three, let's call it, is installing this bash guard here, this big thing that goes underneath the motor."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:08,480",
+				"to": "00:00:12,900"
+			},
+			"offsets": {
+				"from": 8480,
+				"to": 12900
+			},
+			"text": " Have it up on the hoist when you do that. There's another process document for that that I'll link."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:12,900",
+				"to": "00:00:20,500"
+			},
+			"offsets": {
+				"from": 12900,
+				"to": 20500
+			},
+			"text": " Same with this crossbar that replaces the old gearbox mount."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:20,500",
+				"to": "00:00:30,420"
+			},
+			"offsets": {
+				"from": 20500,
+				"to": 30420
+			},
+			"text": " It's just bolted in and it's got two M8 fasteners, one here and one here, on both sides."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:30,420",
+				"to": "00:00:45,500"
+			},
+			"offsets": {
+				"from": 30420,
+				"to": 45500
+			},
+			"text": " I think they're M8 by 25mm and they just go through and attach into the rivnuts that are on the mount."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:45,500",
+				"to": "00:00:49,500"
+			},
+			"offsets": {
+				"from": 45500,
+				"to": 49500
+			},
+			"text": " Let's see if I can get it to..."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:50,500",
+				"to": "00:00:53,500"
+			},
+			"offsets": {
+				"from": 50500,
+				"to": 53500
+			},
+			"text": " Focus."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:53,500",
+				"to": "00:01:01,460"
+			},
+			"offsets": {
+				"from": 53500,
+				"to": 61460
+			},
+			"text": " There are the two M8 fasteners, the M8 rivnuts."
+		}
+	]
+}
