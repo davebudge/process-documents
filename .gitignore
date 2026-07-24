@@ -4,11 +4,24 @@ source/*.MP4
 source/*.mov
 source/*.MOV
 
+# Source PDFs (partner IP + large, keep off the public repo)
+source/*.pdf
+source/*.PDF
+
+# Fellten LDU refurb: derived from a partner's proprietary guide.
+# Photos, page renders, extracted text and the rewritten procedure must NOT
+# go on this public repo. Local + CCC + OneDrive backups only.
+output/ldu-reduction-gearset-quaife-lsd-refurb/
+
 # Intermediate audio (regeneratable from source)
 output/*/audio.wav
 
 # Whisper model (3GB, downloaded once)
 models/*.bin
+
+# Python cache
+**/__pycache__/
+*.pyc
 
 # OS junk
 .DS_Store

@@ -2,9 +2,24 @@
 
 ## What this is
 
-A pipeline that turns a workshop video into a polished Notion process documentation page. Drop an MP4 in `source/`, tell Claude to process it, and a Draft-status row appears in the existing **⚙️ Process Documentation and Instructions** database with: transcript-derived intro, numbered steps, screenshots pulled from the video, and a callout reminding you to upload the video to YouTube and paste the URL in.
+A pipeline that turns workshop source material into a polished Notion process documentation page in the **⚙️ Process Documentation and Instructions** database. Two input types now:
 
-Built to remove the friction between "shoot a 5-minute workshop demo" and "have a usable workshop manual in Notion." The SME shoots the video; everything else is automated except the YouTube upload and final review.
+- **Video (original):** drop an MP4 in `source/`, tell Claude to process it. Transcribe with Whisper, draft intro + numbered steps, pull screenshots, leave a YouTube-upload callout.
+- **PDF (added 2026-07-24):** drop a PDF process/refurb guide in `source/`. Extract per-page text and the embedded photos, rewrite the procedure into Jaunt's Workshop Manual format, map each source page's photos to its step, and upload the photos into the Notion page.
+
+Built to remove the friction between "shoot a demo / receive a supplier guide" and "have a usable workshop manual in Notion."
+
+## PDF -> process doc workflow (2026-07-24)
+
+For a PDF source (worked example: the Fellten LDU refurb guide):
+
+1. `pdftotext` per page via form-feed split for exact page->text mapping; render pages with `pdftoppm` to read layout.
+2. `pdfimages -p -j` to extract embedded photos, filter to content photos (min side >= 800px drops logos/banners/watermarks), reindex per page as `photos/pNN-i.jpg`, downscale to 1600px long edge with `sips`. Extracting the raw photo bitmaps strips all source branding automatically.
+3. Author the page markdown (Intro / Before You Start / Parts / Consumables / Tools and Bolts / Steps / Updates / Next Steps) in Jaunt voice. One step per source page; photo-only continuation pages merge into the preceding step. Write a `steps.json` manifest mapping step -> photo files.
+4. Push text with the Notion MCP (`update-page replace_content`), set properties.
+5. Upload photos privately with `scripts/notion_upload_images.py` (Notion File Upload API), which drops each step's photos under its heading. **Needs `NOTION_TOKEN` (internal integration, shared with the page); the OAuth MCP can only ingest images from a public URL, so it can't do a private local upload.**
+
+**Partner-IP gotcha:** this repo is public. Content derived from a partner's proprietary guide (photos, page renders, extracted text, the rewritten procedure) must NOT be committed here. The whole `output/<slug>/` for such a source is gitignored; source PDFs are gitignored (`source/*.pdf`). Backups are local + CCC + OneDrive. Only the generic `scripts/` code is safe to push.
 
 ## Current status
 
