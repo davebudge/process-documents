@@ -29,3 +29,6 @@ models/*.bin
 
 # Symlink to shared user CLAUDE.md (lives outside this repo)
 CLAUDE.md
+
+# Secrets (Notion integration token for private image upload)
+.env

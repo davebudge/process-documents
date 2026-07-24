@@ -88,7 +88,7 @@ Callout, table, image and step syntax that works: see `references/notion-format.
 
 ### 4. Upload photos (private, 3-abreast, with ToC)
 ```
-export NOTION_TOKEN="ntn_..."          # internal integration, shared with the page
+set -a; source .env; set +a           # NOTION_TOKEN lives in the gitignored .env
 python3 scripts/notion_upload_images.py \
   --manifest output/<slug>/steps.json \
   --photos   output/<slug>/photos \
@@ -100,10 +100,14 @@ stays compact and each image click-expands, and adds a collapsible "Table of
 contents" toggle near the top. Re-running? Add `--replace` to clear old media
 first (fresh file uploads are needed each time; upload IDs are single-use).
 
+**The token:** stored in the gitignored `.env` at the repo root (`NOTION_TOKEN`),
+an internal integration shared with the Process Documentation database. Reusable
+across sessions. If it's ever missing, get a new one at notion.so/my-integrations
+and share it with the page (page ... > Connections).
+
 **Why a token is needed:** the Notion MCP can only ingest images from a public
-URL, so it can't do a private local upload. The File Upload API can, but needs an
-internal integration token (notion.so/my-integrations) shared with the page
-(page ... > Connections). Ask Dave for one if it isn't set.
+URL, so it can't do a private local upload. The File Upload API can, with that
+integration token.
 
 ## Hosting / confidentiality (important)
 
